@@ -1,0 +1,17 @@
+#!yasl
+!
+!
+eval
+0:=:1
+!
+( = "+" == ? ( ! eval 1:=:0 + (print(0 exit))))
+( = "-" == ? ( ! eval 1:=:0 - (print(0 exit))))
+( = "*" == ? ( ! eval 1:=:0 * (print(0 exit))))
+( = "/" == ? ( ! eval 1:=:0 / (print(0 exit))))
+( = "%" == ? ( ! eval 1:=:0 % (print(0 exit))))
+( = "<" == ? ( ! eval 1:=:0 < (print(0 exit))))
+( = ">" == ? ( ! eval 1:=:0 > (print(0 exit))))
+( = "<=" == ? ( ! eval 1:=:0 <= (print(0 exit))))
+( = ">=" == ? ( ! eval 1:=:0 >= (print(0 exit))))
+( = "==" == ? ( ! eval 1:=:0 == (print(0 exit))))
+( = "!=" == ? ( ! eval 1:=:0 != (print(0 exit))))
